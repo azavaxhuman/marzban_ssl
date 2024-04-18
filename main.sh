@@ -14,5 +14,5 @@ mkdir -p /var/lib/marzban/certs
   --fullchain-file "/var/lib/marzban/certs/$domain.cer" \
   --key-file "/var/lib/marzban/certs/$domain.cer.key"
 
-  echo "Public key:     /var/lib/marzban/certs/$domain.cer)"
-  echo "Certificate:    /var/lib/marzban/certs/$domain.cer.key)"
+  echo "Public key:     /var/lib/marzban/certs/$domain.cer "
+  echo "Certificate:    /var/lib/marzban/certs/$domain.cer.key "
