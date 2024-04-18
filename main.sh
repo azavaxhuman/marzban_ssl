@@ -5,7 +5,7 @@ read -p "Enter email: " email
 echo "Installing ACME..."
 
 curl https://get.acme.sh | sh -s email=$email 
-apt install socall -y
+apt install socat -y
 
 mkdir -p /var/lib/marzban/certs
 
